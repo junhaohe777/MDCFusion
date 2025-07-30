@@ -1,4 +1,4 @@
-# A detail preservation fusion framework for infrared-visible images via Bayesian and MDLatLRR
+# MDCFusion: Multi-Scale Dense Convolutional Sparse Coding Fusion Network for Infrared and Visible Image
 ### We sincerely appreciate your interest and support. The README will be further improved after acceptance.
 ## 1. Progect Overview
 
