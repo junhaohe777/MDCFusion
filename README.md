@@ -11,7 +11,7 @@ pytorch 1.12.1
 cuda 11.3
 ### Hardware Requirements
 NVIDIA GeForce RTX3090
-#### Usage：
+## 4.Usage：
 * Place the test image in the tests/input folder.
 * Run the test.py to test.
 * The fused results will be saved in the tests/output folder.
