@@ -32,7 +32,7 @@ NVIDIA GeForce RTX3090
 #### If you use this project's code,please cite our paper:
 ```bibtex
 @article{xxx_2025_ME-PMA,
-  title={Enhanced Infrared and Visible Image Fusion via Latent Low-Rank and Coupled Feature Learning},
+  title={MDCFusion: Multi-Scale Dense Convolutional Sparse Coding Fusion Network for Infrared and Visible Image},
   author={xxx},
   journal={xxx},
   volume={xx},
