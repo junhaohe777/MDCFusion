@@ -25,6 +25,7 @@ NVIDIA GeForce RTX3090
 * The M3FD dataset can be downloaded at the following address:https://universe.roboflow.com/rgbi/m3fd-tlj7u
 
 ### Experiments 
+![示例图片](image/framework.jpg)
 ![示例图片](image/result1.png)
 ![示例图片](image/result2.png)
 
