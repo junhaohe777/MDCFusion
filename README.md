@@ -3,20 +3,29 @@
 ## 1. Progect Overview
 Traditional convolutional sparse coding (CSC) -based fusion methods suffer from limited feature extraction and insufficient detail preservation, particularly in complex scenes with rich textures. To address these limitations, this paper proposes a novel method based on multi-scale dense convolutional sparse coding. Specifically, a multi-scale dense convolutional sparse coding module is integrated into an encoder-decoder framework to enhance feature representation while ensuring interpretability. The dense connectivity mechanism improves cross-layer feature reuse, effectively preserving both global structures and local textures during fusion. Additionally, two fusion strategies are designed to balance complementary modality features: an additive fusion rule and a novel threshold filtering strategy to suppress redundant infrared information. The fused features are subsequently decoded to reconstruct the fused image with enhanced contrast and clarity. Experiments results demonstrate that the proposed method achieves superior fusion performance compared to state-of-the-art methods in terms of both visual quality and objective metrics.
 ## 2. Framework
-![示例图片](image/framework.png)
+![示例图片](image/framework.jpg)
 ## 3. Environment Setup
 ### Sofware Dependencies
+Linux 6.8.0
 Python 3.7.12
 pytorch 1.12.1
 cuda 11.3
 ### Hardware Requirements
-NVIDIA GeForce RTX3090
-## 4.Usage：
-* Place the test image in the tests/input folder.
+NVIDIA GeForce RTX3090 with 24.00 GB
+## 4.Installation and Usage：
+### Clone the repository
+```bash
+git clone https://github.com/junhaohe777/MDCFusion.git
+cd tests
+```
+* Place the test image in the input folder.
 * Run the test.py to test.
-* The fused results will be saved in the tests/output folder.
-  
-## 5. Datasets and Experiments 
+* The fused results will be saved in the output folder.
+
+## 5. Key Algorithms and Implementation
+First, the RGB images are converted to the YCbCr color space, where the fusion process is mainly performed on the luminance (Y) channel. The encoder is applied to decompose the Y channel features of the infrared and visible images, after which a fusion algorithm is used to integrate these features. The fused Y channel features are then decoded and combined with the Cb and Cr components from the initial decomposition. Finally, the fused result is transformed back into the RGB space to generate the final image.
+
+## 6. Datasets and Experiments 
 
 #### Datasets 
 * The TNO dataset can be downloaded at the following address: [https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029](https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029)
@@ -25,7 +34,6 @@ NVIDIA GeForce RTX3090
 * The M3FD dataset can be downloaded at the following address:https://universe.roboflow.com/rgbi/m3fd-tlj7u
 
 ### Experiments 
-![示例图片](image/framework.jpg)
 ![示例图片](image/result1.png)
 ![示例图片](image/result2.png)
 
