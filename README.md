@@ -1,4 +1,4 @@
-# MDCFusion: Multi-Scale Dense Convolutional Sparse Coding Fusion Network for Infrared and Visible Image
+# MDCFusion: Enhancing Infrared and Visible Image Fusion through Multi-Scale Dense Convolutional Sparse Coding
 ### We sincerely appreciate your interest and support. The README will be further improved after acceptance.
 ## 1. Progect Overview
 Infrared and visible image fusion (IVIF) aims to integrate complementary information from both modalities, enhancing the overall quality and informativeness of the fused image. Traditional IVIF methods based on convolutional sparse coding (CSC) often suffer from weak feature extraction and poor detail preservation. To address these issues, we present a Multi-Scale Dense Convolutional Sparse Coding Fusion Network (MDCFusion), which embeds a learnable MSD-CSC module within an encoder-decoder framework. This approach combines the theoretical interpretability of CSC with the powerful feature learning capabilities of deep networks. By leveraging dense connectivity within the MSD-CSC module, MDCFusion facilitates hierarchical feature reuse, enhancing texture detail and edge structure preservation. Additionally, we propose an additive fusion rule and a threshold filtering strategy to effectively integrate complementary information during fusion, the latter of which can effectively suppress redundant infrared information. Experiments on four publicly available datasets demonstrate that MDCFusion outperforms state-of-the-art methods in both visual quality and objective metrics, achieving significant improvements in texture preservation and structural clarity.
@@ -12,7 +12,7 @@ pytorch 1.12.1
 cuda 11.3
 ### Hardware Requirements
 NVIDIA GeForce RTX3090 with 24.00 GB
-## 4. Installation and Usage：
+## 4. Installation and Usage
 ### Clone the repository
 ```bash
 git clone https://github.com/junhaohe777/MDCFusion.git
