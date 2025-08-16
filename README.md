@@ -6,10 +6,10 @@ Infrared and visible image fusion (IVIF) aims to integrate complementary informa
 ![示例图片](image/framework.jpg)
 ## 3. Environment Setup
 ### Sofware Dependencies
-Linux 6.8.0
-Python 3.7.12
-pytorch 1.12.1
-cuda 11.3
+Linux version: Linux 6.8.0
+Python version: Python 3.7.12
+Pytorch version: pytorch 1.12.1
+Cuda version: cuda 11.3
 ### Hardware Requirements
 NVIDIA GeForce RTX3090 with 24.00 GB
 ## 4. Installation and Usage
