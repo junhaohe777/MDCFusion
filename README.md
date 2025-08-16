@@ -18,6 +18,8 @@ NVIDIA GeForce RTX3090 with 24.00 GB
 git clone https://github.com/junhaohe777/MDCFusion.git
 cd tests
 ```
+
+#### Usage:
 * Place the test image in the input folder.
 * Run the test.py to test.
 * The fused results will be saved in the output folder.
