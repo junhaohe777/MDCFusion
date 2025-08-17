@@ -45,7 +45,7 @@ First, the RGB images are converted to the YCbCr color space, where the fusion p
 ## 6. Citation
 #### If you use this project's code,please cite our paper:
 ```bibtex
-@article{
+@article{xxx_2025_MDCFusion
   title={MDCFusion: Enhancing Infrared and Visible Image Fusion through Multi-Scale Dense Convolutional Sparse Coding},
   author={xxx},
   journal={The Visual Computer},
