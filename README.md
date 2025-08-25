@@ -1,5 +1,5 @@
 # MDCFusion: Enhancing Infrared and Visible Image Fusion through Multi-Scale Dense Convolutional Sparse Coding
-### Our paper has been submitted to *The Visual Computer* and is currently under external review. We sincerely appreciate your interest and support. The README will be further improved after acceptance.
+### We sincerely appreciate your interest and support. The README will be further improved after acceptance.
 ## 1. Progect Overview
 Infrared and visible image fusion (IVIF) aims to integrate complementary information from both modalities, enhancing the overall quality and informativeness of the fused image. Traditional IVIF methods based on convolutional sparse coding (CSC) often suffer from weak feature extraction and poor detail preservation. To address these issues, we present a Multi-Scale Dense Convolutional Sparse Coding Fusion Network (MDCFusion), which embeds a learnable MSD-CSC module within an encoder-decoder framework. This approach combines the theoretical interpretability of CSC with the powerful feature learning capabilities of deep networks. By leveraging dense connectivity within the MSD-CSC module, MDCFusion facilitates hierarchical feature reuse, enhancing texture detail and edge structure preservation. Additionally, we propose an additive fusion rule and a threshold filtering strategy to effectively integrate complementary information during fusion, the latter of which can effectively suppress redundant infrared information. Experiments on four publicly available datasets demonstrate that MDCFusion outperforms state-of-the-art methods in both visual quality and objective metrics, achieving significant improvements in texture preservation and structural clarity.
 ## 2. Framework
@@ -48,7 +48,7 @@ First, the RGB images are converted to the YCbCr color space, where the fusion p
 @article{xxx_2025_MDCFusion
   title={MDCFusion: Enhancing Infrared and Visible Image Fusion through Multi-Scale Dense Convolutional Sparse Coding},
   author={xxx},
-  journal={The Visual Computer},
+  journal={xxx},
   volume={xx},
   number={x},
   pages={x--x},
